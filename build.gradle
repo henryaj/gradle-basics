@@ -8,3 +8,8 @@ repositories {
 dependencies {
   compile "joda-time:joda-time:2.2"
 }
+
+jar {
+  baseName = 'gs-gradle'
+  version = '0.0.1'
+}

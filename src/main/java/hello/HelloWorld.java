@@ -11,7 +11,3 @@ public class HelloWorld {
     System.out.println(greeter.sayHello());
   }
 }
-
-task wrapper(type: Wrapper) {
-  gradleVersion = '1.11'
-}
